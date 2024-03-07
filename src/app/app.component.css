@@ -1,0 +1,86 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+.site_name {
+  width: 250px;
+  height: 31px;
+  margin: 0px 24px 16px 0;
+  color: white;
+  float: left;
+}
+
+nz-content {
+  padding: 0 50px;
+}
+
+  /* nz-footer {
+    text-align: center;
+  } */
+
+.table {
+  border-collapse: collapse;
+  margin: 0;
+  padding-bottom: 20px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+    
+.table tr {
+  padding: .35em;
+}
+    
+.table th,
+.table td {
+  padding: .625em;
+  text-align: center;
+}
+    
+.table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+    
+@media screen and (max-width: 600px) {
+  .table {
+    border: 0;
+  }
+
+  .table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+      
+  .table tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+      
+  .table td {
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+      
+  .table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+      
+  .table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+    
