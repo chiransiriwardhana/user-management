@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. Create new folder called "User Management System" and go into that folder using
    ### cd "User Management System"
 4. Clone the github project into that folder using
-   ### git clone
+   ### git clone https://github.com/chiransiriwardhana/user-management.git
 5. Go into project folder using
    ### cd user-management
 6. Now you're in project folder. Then you need to install project dependencies using.
