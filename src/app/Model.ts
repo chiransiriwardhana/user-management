@@ -1,4 +1,5 @@
-  export interface User {
+ // User modal.
+ export interface User {
       id: number,
       firstName: string;
       lastName: string;
