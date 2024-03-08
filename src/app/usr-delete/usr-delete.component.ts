@@ -8,7 +8,6 @@
     styleUrl: './usr-delete.component.css'
   })
 
-
   export class UsrDeleteComponent {
     isVisible = false;
     @Input() ID: number;
@@ -17,10 +16,6 @@
       this.ID = 1
       this.name = ''
     }
-
-    // showDeleteModal(): void {
-    //   this.isVisible = true;
-    // }
 
     handleCancel(): void {
       this.isVisible = false;

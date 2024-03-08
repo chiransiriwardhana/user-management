@@ -10,8 +10,7 @@ export class UserService {
   constructor(private _http: HttpClient) { }
 
   addUser(data: any): Observable<any> {
-    return this._http.post('https://dummyjson.com/users/add', data)
-    
+    return this._http.post('https://dummyjson.com/users/add', data)    
   }
 
   getUser(): Observable<any> {

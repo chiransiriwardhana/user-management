@@ -7,11 +7,8 @@
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
   })
-  export class AppComponent implements OnInit{
+  export class AppComponent implements OnInit {
     title = 'user-management-system';
-
-    // resizing = false;
-    // isVisible = false;
 
     ngOnInit(): void {
       this.getUserList()

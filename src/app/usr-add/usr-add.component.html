@@ -10,10 +10,9 @@
       class="modal"
     >
       <ng-template #modalTitle>Adding new user</ng-template>
-
       <ng-template #modalContent>
-
           <form nz-form [formGroup]="usrForm" (ngSubmit)="submitForm()">
+
               <nz-form-item>
                   <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="fName">First Name</nz-form-label>
                   <nz-form-control [nzSm]="14" [nzXs]="24" nzErrorTip="Please input your first name!">
@@ -56,6 +55,5 @@
             </form>
   
       </ng-template> 
-
       <ng-template #modalFooter></ng-template>
   </nz-modal>
