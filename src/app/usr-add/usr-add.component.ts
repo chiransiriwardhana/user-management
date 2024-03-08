@@ -35,19 +35,22 @@
     handleCancel(): void {
       this.isVisible = false;
     }
-
+    // When submit button is clicked new user is added by calling service method
     submitForm(): void {
       if (this.usrForm.valid) {
         this._usrService.addUser(this.usrForm.value).subscribe({
           next: (val: any) => {
             
             this.isConfirmLoading = true;
-            setTimeout(() => {
+            // Set timeout. Due to this pop up message box close after 1 second
+            setTimeout(() => {  
               this.isVisible = false;
               this.isConfirmLoading = false;
             }, 1000);
             console.log('response from post: ', val);
           },
+
+          // If there is error when adding new user print error into console.
           error:(err: any) => {
             console.log("error", err)
           }
