@@ -18,6 +18,7 @@
     }
 
     handleCancel(): void {
+      // when user click cancel button of pop up windo it become invisible
       this.isVisible = false;
     }
 
@@ -28,6 +29,7 @@
         nzOkText: 'OK',
         nzCancelText: 'Cancel',
         nzOnOk: () => {
+          // when user click ok button of confirmation pop up box, user is deleted
           this._usrService.deleteUser(id).subscribe({
             next:(res) => {
               console.log("response from delete: ", res)
