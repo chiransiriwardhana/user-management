@@ -5,5 +5,26 @@
   }
 
   .submit_add_btn {
-    margin-left: 200px;
+      
+    position: absolute;
+    margin-left: 70%;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+
+    .add_usr {
+      width: 48px;
+      font-size: 8px;
+      padding: 1px;
+      height: 25px;    
+    }
+
+    .submit_add_btn {
+      margin-left: 60%;
+      width: 48px;
+      font-size: 10px;
+      padding: 1px;
+      height: 30px;
+    }
   }
