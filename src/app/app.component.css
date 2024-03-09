@@ -1,14 +1,11 @@
 nz-content {
   position: absolute;
   width: 100vw;
+  padding: 0 50px;
 }
 
 .table {
   overflow-x: scroll;
-}
-
-nz-content {
-  padding: 0 50px;
 }
 
 .site_name {
