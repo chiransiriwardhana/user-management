@@ -55,5 +55,14 @@ But server doesn't create new entry. For all new user create events server reter
 ### When application is loading it automatically fetch data from the server. Hence, there is not special user event(button click, etc.) for fetching data
 <img width="1440" alt="Screenshot 2024-03-08 at 12 33 20 PM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/8892b779-c5b6-4051-a8a3-94a761f94c61">
 
+## Responsiveness
 
+<img width="1429" alt="Screenshot 2024-03-09 at 9 32 58 AM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/1ee7cb1d-35be-4269-bbe7-ef96676b3daa">
+<img width="1436" alt="Screenshot 2024-03-09 at 9 33 28 AM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/022f76ef-74f0-4057-b148-b0e63ae7517b">
+<img width="1427" alt="Screenshot 2024-03-09 at 9 33 58 AM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/443ccc52-ed14-4893-a2cb-69bd1502c76c">
+<img width="1430" alt="Screenshot 2024-03-09 at 9 34 24 AM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/bba16719-a989-4c5e-b4f8-a7bd058bec74">
+<img width="1436" alt="Screenshot 2024-03-09 at 9 34 57 AM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/f8828c13-c7fc-4c22-82dc-72c1f0a494d6">
+<img width="1440" alt="Screenshot 2024-03-09 at 9 35 25 AM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/cc3b1edb-8076-4c70-b571-b017b2cf43a8">
+<img width="1439" alt="Screenshot 2024-03-09 at 9 35 48 AM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/dc8bd0bf-790b-4b19-a26b-6ec1635caa66">
+<img width="1052" alt="Screenshot 2024-03-09 at 9 36 16 AM" src="https://github.com/chiransiriwardhana/user-management/assets/47823522/4f4d4bcd-244d-416e-8a65-c33c4114a6ca">
 
